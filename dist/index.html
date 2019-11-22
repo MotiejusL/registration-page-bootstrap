@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="main.css" type="text/css" rel="stylesheet">
+  <link href="all.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav w-100">
+          <li class="nav-item">
+            <a href="#" class="nav-link font-weight-bold"><span class="nav-item-hover">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link font-weight-bold"><span class="nav-item-hover">About game</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link font-weight-bold"><span class="nav-item-hover">Register</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link font-weight-bold"><span class="nav-item-hover">Sponsors</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link font-weight-bold"><span class="nav-item-hover">Contact Us</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link font-weight-bold"><span class="nav-item-hover">Donate</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"</li>
+        <li data-target="#myCarousel" data-slide-to="2"</li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-item-text">
+            <h1>Longer text here and here</h1>
+            <p>Nulla id dapibus dui, sit amet placerat diam. Morbi viverra rhoncus eros, id vestibulum
+              orci tristique dapibus. Aenean condimentum mi id quam faucibus, sit amet pulvinar odio
+              donec a luctus eros, ut ullamcorper urna. Pellentesque lectus dui, hendrerit quis semper vitae.</p>
+          </div>
+          <div class="img-filter-darken">
+          </div>
+          <img class="d-block w-100" src="images/slide1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-item-text">
+            <h1>Longer text here and here</h1>
+            <p>Nulla id dapibus dui, sit amet placerat diam. Morbi viverra rhoncus eros, id vestibulum
+              orci tristique dapibus. Aenean condimentum mi id quam faucibus, sit amet pulvinar odio
+              donec a luctus eros, ut ullamcorper urna. Pellentesque lectus dui, hendrerit quis semper vitae.</p>
+          </div>
+          <div class="img-filter-darken">
+          </div>
+          <img class="d-block w-100" src="images/slide2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-item-text">
+            <h1>Longer text here and here</h1>
+            <p>Nulla id dapibus dui, sit amet placerat diam. Morbi viverra rhoncus eros, id vestibulum
+              orci tristique dapibus. Aenean condimentum mi id quam faucibus, sit amet pulvinar odio
+              donec a luctus eros, ut ullamcorper urna. Pellentesque lectus dui, hendrerit quis semper vitae.</p>
+          </div>
+          <div class="img-filter-darken">
+          </div>
+          <img class="d-block w-100" src="images/slide3.png" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+  <main>
+    <div class="registration-container d-flex flex-column align-items-center">
+      <h1>Registration</h1>
+      <form class="needs-validation" novalidate>
+        <div class="form-group">
+          <input type="text" class="form-control form-control-lg" placeholder="Name" required>
+          <div class="valid-feedback">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <div class="invalid-feedback">
+            <div class="invalid-feedback-wrapper">
+              <i class="fas fa-times-circle"></i>
+              <div class="invalid-feedback-text">
+                <h5>Please enter a name</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control form-control-lg" placeholder="Surname" required>
+          <div class="valid-feedback">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <div class="invalid-feedback">
+            <div class="invalid-feedback-wrapper">
+              <i class="fas fa-times-circle"></i>
+              <div class="invalid-feedback-text">
+                <h5>Please enter a surname</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="tel" class="form-control form-control-lg" placeholder="Phone" pattern="(\+370)[0-9]{8}" required>
+          <div class="valid-feedback">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <div class="invalid-feedback">
+            <div class="invalid-feedback-wrapper">
+              <i class="fas fa-times-circle"></i>
+              <div class="invalid-feedback-text">
+                <h5>Phone number must start with +370</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control form-control-lg" placeholder="Address" required>
+          <div class="valid-feedback">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <div class="invalid-feedback">
+            <div class="invalid-feedback-wrapper">
+              <i class="fas fa-times-circle"></i>
+              <div class="invalid-feedback-text">
+                <h5>Please enter your address</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control form-control-lg" placeholder="Email" required>
+          <div class="valid-feedback">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <div class="invalid-feedback">
+            <div class="invalid-feedback-wrapper">
+              <i class="fas fa-times-circle"></i>
+              <div class="invalid-feedback-text">
+                <h5>Email is in wrong format</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control form-control-lg" placeholder="City" required>
+          <div class="valid-feedback">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <div class="invalid-feedback">
+            <div class="invalid-feedback-wrapper">
+              <i class="fas fa-times-circle"></i>
+              <div class="invalid-feedback-text">
+                <h5>Please enter your city</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-desktop">
+          <div class="tabbable">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#terms" data-toggle="tab" class="active show">Terms and conditions</a></li>
+              <li><a href="#rules" data-toggle="tab">Rules</a></li>
+              <li><a href="#faq" data-toggle="tab">FAQ</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="terms">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus tortor at ante efficitur,
+                vel ullamcorper nunc vehicula. Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Sed iaculis auctor dui, sit amet blandit augue. Mauris
+                elementum commodo ante, eu rhoncus purus. Curabitur nec urna neque. Nunc commodo sem risus,
+                mollis luctus ante accumsan a. Sed efficitur orci eu luctus finibus. Phasellus bibendum
+                fringilla diam. Quisque eu purus elementum, maximus mauris vel, vulputate eros. Nunc
+                porttitor tempor libero, non ultricies ligula sodales vel.</p>
+              </div>
+              <div class="tab-pane" id="rules">
+                <p>Nam egestas elit vitae mi vestibulum efficitur. Nullam malesuada felis ut quam tincidunt
+                elementum. Ut venenatis in lacus et vulputate. Aenean id magna vestibulum, condimentum
+                dui a, rutrum lectus. Curabitur finibus, odio vitae condimentum euismod, leo metus
+                tristique metus, eu volutpat est erat hendrerit lectus. Integer euismod scelerisque
+                cursus. Proin vitae porttitor leo. Donec faucibus purus nec diam scelerisque, sit amet
+                porttitor tortor dictum. Nullam egestas turpis augue. Mauris at tortor sagittis,
+                suscipit enim ut, condimentum leo. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Quisque bibendum risus tellus, sit amet lacinia sem accumsan a. Nunc congue ante
+                ut facilisis condimentum. In facilisis dui lacus, quis interdum magna dignissim at.
+                Praesent eu lectus sed dui tempus scelerisque. Aliquam luctus congue arcu.</p>
+              </div>
+              <div class="tab-pane" id="faq">
+                <p>Proin vulputate iaculis neque ut convallis. Cras dignissim velit at finibus dapibus.
+                Nam malesuada est non pellentesque luctus. Fusce maximus a nisl at viverra. Donec quis
+                suscipit erat. Nam ac tincidunt augue. Sed odio urna, aliquet sit amet ornare eget,
+                accumsan porta nulla. Mauris imperdiet laoreet lorem in viverra. Quisque imperdiet nisl
+                diam, et aliquet enim porttitor eu. Nunc porta ipsum sit amet turpis congue imperdiet.
+                In vel justo in tortor pharetra tempus ut ac dolor. Donec purus sem, vestibulum at felis
+                ac, sodales lobortis ipsum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-mobile">
+          <div class="accordion" id="myAccordion">
+            <div class="card">
+              <div class="card-header" id="termsHeading">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Terms and conditions
+                    <i class="fas fa-plus collapsed-icon"></i>
+                    <i class="fas fa-minus show-icon"></i>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseOne" class="collapse collapsed" aria-labelledby="termsHeading" data-parent="#myAccordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus tortor at ante efficitur,
+                  vel ullamcorper nunc vehicula. Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas. Sed iaculis auctor dui, sit amet blandit augue. Mauris
+                  elementum commodo ante, eu rhoncus purus. Curabitur nec urna neque. Nunc commodo sem risus,
+                  mollis luctus ante accumsan a. Sed efficitur orci eu luctus finibus. Phasellus bibendum
+                  fringilla diam. Quisque eu purus elementum, maximus mauris vel, vulputate eros. Nunc
+                  porttitor tempor libero, non ultricies ligula sodales vel.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="aboutHeading">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Rules
+                    <i class="fas fa-plus collapsed-icon"></i>
+                    <i class="fas fa-minus show-icon"></i>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="aboutHeading" data-parent="#myAccordion">
+                <div class="card-body">
+                  Nam egestas elit vitae mi vestibulum efficitur. Nullam malesuada felis ut quam tincidunt
+                  elementum. Ut venenatis in lacus et vulputate. Aenean id magna vestibulum, condimentum
+                  dui a, rutrum lectus. Curabitur finibus, odio vitae condimentum euismod, leo metus
+                  tristique metus, eu volutpat est erat hendrerit lectus. Integer euismod scelerisque
+                  cursus. Proin vitae porttitor leo. Donec faucibus purus nec diam scelerisque, sit amet
+                  porttitor tortor dictum. Nullam egestas turpis augue. Mauris at tortor sagittis,
+                  suscipit enim ut, condimentum leo. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Quisque bibendum risus tellus, sit amet lacinia sem accumsan a. Nunc congue ante
+                  ut facilisis condimentum. In facilisis dui lacus, quis interdum magna dignissim at.
+                  Praesent eu lectus sed dui tempus scelerisque. Aliquam luctus congue arcu.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="faqHeading">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    FAQ
+                    <i class="fas fa-plus collapsed-icon"></i>
+                    <i class="fas fa-minus show-icon"></i>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="faqHeading" data-parent="#myAccordion">
+                <div class="card-body">
+                  Proin vulputate iaculis neque ut convallis. Cras dignissim velit at finibus dapibus.
+                  Nam malesuada est non pellentesque luctus. Fusce maximus a nisl at viverra. Donec quis
+                  suscipit erat. Nam ac tincidunt augue. Sed odio urna, aliquet sit amet ornare eget,
+                  accumsan porta nulla. Mauris imperdiet laoreet lorem in viverra. Quisque imperdiet nisl
+                  diam, et aliquet enim porttitor eu. Nunc porta ipsum sit amet turpis congue imperdiet.
+                  In vel justo in tortor pharetra tempus ut ac dolor. Donec purus sem, vestibulum at felis
+                  ac, sodales lobortis ipsum.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="agree" required>
+        <label class="custom-control-label" for="agree">I AGREE with terms and conditions. I have read them
+        thoroughly and agree to abide them. <a href="#">Terms of service</a></label>
+      </div>
+      <button type="submit" class="reg-form-button">register</button>
+    </form>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
